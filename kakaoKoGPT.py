@@ -4,7 +4,7 @@ import requests
 import json
 
 # [내 애플리케이션] > [앱 키] 에서 확인한 REST API 키 값 입력
-REST_API_KEY = 'jdy23d40a45b6dab00ad785dd41e579e41a'
+REST_API_KEY = 'APIKey'
 
 # KoGPT API 호출을 위한 메서드 선언
 # 각 파라미터 기본값으로 설정

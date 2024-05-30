@@ -15,17 +15,6 @@ opt.add_experimental_option('detach', True)
 # browser 안보이게 하고 진행하기
 #opt.add_argument('headless')
 
-# from selenium.webdriver.support.ui import (WebDriverWait)
-# from selenium.webdriver.support import expected_conditions as EC
-# import sys
-# import urllib.request
-# import os
-# from urllib.request import urlretrieve
-#
-# import time
-# import pandas as pd
-# import chromedriver_autoinstaller  # setup chrome options
-
 url="https://www.naver.com"
 drive = webdriver.Chrome(options=opt)
 drive.get(url)

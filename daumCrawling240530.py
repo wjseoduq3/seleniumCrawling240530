@@ -4,7 +4,7 @@ import json
 # 다음 검색
 url = "https://dapi.kakao.com/v2/search/web"
 # 1-1. url_get = "https://dapi.kakao.com/v2/search/web?query=인공지능"
-rest_api_key = 'jdy23d40a45b6dab00ad785dd41e579e41a'
+rest_api_key = 'APIKey'
 my_headers = {"Authorization": "KakaoAK "+rest_api_key}
 req_params = {'query':'인공지능', 'sort':'accuracy', 'page':1, 'size':30}
 
