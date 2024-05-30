@@ -31,7 +31,7 @@ search_box.submit()
 time.sleep(0.5)
 
 drive.find_element(By.LINK_TEXT,'이미지').click()
-time.sleep(0.5)
+time.sleep(1)
 
 links=[]
 images = drive.find_elements(By.CSS_SELECTOR, 'g-img.mNsIhb>img.YQ4gaf')
@@ -40,6 +40,7 @@ images = drive.find_elements(By.CSS_SELECTOR, 'g-img.mNsIhb>img.YQ4gaf')
 for img in images:
     if img.get_attribute('src') != None:
         links.append(img.get_attribute('src'))
+    time.sleep(2)
 
 print('이미지 갯수:',len(links))
 time.sleep(0.5)
